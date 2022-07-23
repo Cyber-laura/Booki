@@ -4,12 +4,13 @@
 
 body {
     font-family: 'Raleway', sans-serif;
-    margin: 0px 40px 0px 40px;
+    margin: 25px 40px 0px 40px;
 }
 
 header {
     display: flex;
     justify-content: space-between;
+    padding-bottom: 20px;
 }
 
 .logo {
@@ -25,17 +26,19 @@ header {
 a {
     text-decoration: none;
     color: black;
+}
+.paddingmenu
+{
     padding:10px;
 }
-
 .margin {
     margin-right: 55px;
 }
 
 .blocnavheader .menu :hover {
     border-top: 2px solid #0065fc;
-    color: #DEEBFF;
-    padding: 10px;
+    color: #0065fc;
+    padding-top: 35px;
 }
 
 .titreone {
@@ -96,7 +99,7 @@ input {
 
 .box:hover {
     cursor: pointer;
-    color: blue;
+    color: #0065fc;
 }
 
 .iconinfo {
@@ -142,10 +145,6 @@ input {
     cursor: pointer;
 }
 
-.box :active {
-    background-color: blue;
-}
-
 .fa-solid {
     color: #0065fc;
 }
@@ -179,6 +178,7 @@ input {
     border: 2px solid #f2f2f2;
     width: 196px;
     margin: 15px;
+    padding:0px 0px 10px 0px;
     border-radius: 20px;
     box-shadow: 1px 1px 3px grey;
     cursor: pointer;
@@ -253,12 +253,16 @@ input {
     background-color: white;
     border: 2px solid #f2f2f2;
     border-radius: 20px;
-    box-shadow: 1px 1px 3px grey;
+    box-shadow: 1px 1px 3px #f2f2f2;
     display: flex;
     height: 123px;
     margin: auto;
 }
-
+.chambrepop:hover
+{
+    color:#0065fc;
+    cursor:pointer;
+}
 .visupop {
     width: 120px;
     height: 120px;
@@ -266,7 +270,6 @@ input {
     object-fit: cover;
     border-radius: 20px 0px 0px 20px;
 }
-
 
 /*3eme section*/
 .inlinebloc {
@@ -397,7 +400,6 @@ footer {
 .smalltitrefooter {
     font-size: small;
     padding-top: 30px;
-    margin-left:10px;
 }
 
 #iconloupe {
@@ -408,7 +410,8 @@ footer {
 
 
 /*Tablette*/
-@media all and (min-width:768px) and (max-width:992px) {
+@media all and (min-width:768px) and (max-width:992px) 
+{
     .imagine {
         display: flex;
         flex-direction: column;
@@ -451,15 +454,11 @@ footer {
         margin: auto;
     }
 
-    /*.blocnavheader:hover {
-        border-bottom: 2px solid #0065fc;
-        padding-bottom: 10px;
-    }*/
-
     .blocnavheader .menu {
         border-top: none;
         width:50%;
         text-align:center;
+        padding-bottom: 15px;
     }
     .menu
     {
@@ -470,7 +469,7 @@ footer {
     {
         border-bottom: 3px solid #0065fc;
     }
-    a
+    .paddingfooter
     {
         padding:20px
     }
