@@ -1,5 +1,5 @@
 # Booki
-Deuxième projet du parcours dévellopeur web chez Openclassroom. L'objectif est d'intégrer la maquette d'un site de planification de vacances nommé "Booki" (voir l'image ci-dessous).
+Deuxième projet du parcours dévelopeur web chez Openclassroom. L'objectif est d'intégrer la maquette d'un site de planification de vacances nommé "Booki" (voir l'image ci-dessous).
 ![screenshot booki p2](https://user-images.githubusercontent.com/105425865/193857729-ee7d62db-cbd1-416b-9c09-9ad7fb6dd288.png)
 # Spécifications fonctionnelles
 ● Les usagers pourront rechercher des hébergements dans la ville de leur choix. Le champ de recherche est un champ de saisie. La partie recherche ne doit pas être fonctionnelle.
