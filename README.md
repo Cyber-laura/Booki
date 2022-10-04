@@ -10,7 +10,7 @@ Deuxième projet du parcours dévellopeur web chez Openclassroom. L'objectif est
 
 ● Les textes “Hébergements” et “Activités”, situés dans l’en-tête, sont des liens. Ils doivent mener respectivement vers la section “Hébergements à Marseille” et “Activités à Marseille”.
 
-# Spécfications techniques
+# Spécifications techniques
 
 ● Deux maquettes ont été réalisées : l’une desktop et l’autre mobile. Le site devra être également adapté aux formats tablette.
 
